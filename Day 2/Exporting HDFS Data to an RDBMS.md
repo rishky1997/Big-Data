@@ -2,11 +2,13 @@
 ## 1 ) Put the Data into HDFS 
  
 a. Create a new directory in HDFS named salarydata. 
+
 #hdfs dfs -mkdir salarydata 
 
 ![image](https://user-images.githubusercontent.com/64614587/86316382-45a0f680-bc4a-11ea-968a-8dc5b24a45fd.png)
 
 b. Put salarydata.txt into the salarydata directory in HDFS.   
+
 #hdfs dfs –put salarydata.txt salarydata
 
 ![image](https://user-images.githubusercontent.com/64614587/86316418-5d787a80-bc4a-11ea-8bf7-930bdd412fd0.png)
